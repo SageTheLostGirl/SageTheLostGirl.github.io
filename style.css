@@ -17,5 +17,16 @@ li a {
 }
 
 li a:hover {
-        background-color: #111;
+        text-decoration: underline;
+}
+
+img {
+        padding: 10px 0;
+        float: right;
+        width: 100%;
+        height: auto;
+}
+
+body {
+        background-color: black;
 }
