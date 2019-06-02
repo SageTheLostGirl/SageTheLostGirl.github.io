@@ -1,3 +1,7 @@
+body {
+        background-color: black;
+}
+
 ul {
         list-style-type: none;
         margin: 0;
@@ -27,14 +31,11 @@ img {
         height: auto;
 }
 
-img.profile {
+.profile {
         padding: 10px 0;
-        float: right;
-        width: 50%;
-        height: auto;
 }
 
-p.header {
+.header {
         font-size: 55px;
         font-weight: bold;
         margin-bottom: 20px;
@@ -42,19 +43,38 @@ p.header {
         text-indent: 0px;
 }
 
+.item {
+        width: 50%;
+        height: auto;
+        padding: 10px;
+}
+
 p {
         font-family: 'Montserrat', sans-serif;
-        font-size: 27px;
+        font-size: 28px;
         text-decoration: none;
         float: left;
         color: white;
-        width: 48%;
         font-weight: lighter;
         margin-top: 5px;
         line-height: 40px;
         text-indent: 40px;
 }
 
-body {
-        background-color: black;
+/* Default */
+.container {
+        display: flex;
+        flex-flow: row;
+}
+
+/* Smaller screens */
+@media all and (max-width: 900px) {
+        .container {
+                flex-direction: column;
+        }
+        .item {
+                width: 98%;
+                height: auto;
+                padding: 1%;
+        }
 }
