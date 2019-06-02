@@ -14,4 +14,4 @@ much of the work offline.
 I did not collaborate on this lab with anyone.
 
 ## Time Commitment
-I spent around 6 hours working on this project.
+I spent around 9 hours working on this project.
