@@ -81,7 +81,7 @@ p {
         flex-flow: row;
 }
 
-/* Smaller screens */
+/* Medium screens */
 @media all and (max-width: 900px) {
         .container {
                 flex-direction: column;
@@ -90,5 +90,23 @@ p {
                 width: 98%;
                 height: auto;
                 padding: 1%;
+        }
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+        .container {
+                flex-direction: column;
+        }
+        .item {
+                width: 98%;
+                height: auto;
+                padding: 1%;
+        }
+        .header {
+                font-size: 30px;
+        }
+        p {
+                font-size: 15px;
         }
 }
