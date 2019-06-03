@@ -78,7 +78,7 @@ p {
 /* Default */
 .container {
         display: flex;
-        flex-flow: row;
+        flex-flow: row-reverse;
 }
 
 /* Medium screens */
