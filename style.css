@@ -1,7 +1,15 @@
+/*
+ * Katelyn Eustace
+ * June 2, 2019
+ * Stylesheet for Personal Webpage
+ */
+
+/* --- Body Style ----*/
 body {
         background-color: black;
 }
 
+/* ---- Navigation Bar Style ---- */
 ul {
         list-style-type: none;
         margin: 0;
@@ -24,16 +32,21 @@ li a:hover {
         background-color: rgb(77, 77, 77);
 }
 
+/* ---- Image Styling ---- */
 img {
         padding: 1%;
-        max-width: 1000px;
         width: 98%;
         height: auto;
+}
+
+.resume {
+        max-width: 1000px;
         display: block;
         margin-left: auto;
         margin-right: auto;
 }
 
+/* ---- Text Styling ---- */
 .header {
         font-size: 55px;
         font-weight: bold;
@@ -42,11 +55,6 @@ img {
         text-indent: 0px;
 }
 
-.item {
-        width: 50%;
-        height: auto;
-        padding: 10px;
-}
 
 p {
         font-family: 'Montserrat', sans-serif;
@@ -58,6 +66,13 @@ p {
         margin-top: 5px;
         line-height: 40px;
         text-indent: 40px;
+}
+
+/* ---- Alignment of Bio Page ---- */
+.item {
+        width: 50%;
+        height: auto;
+        padding: 10px;
 }
 
 /* Default */
