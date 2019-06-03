@@ -25,14 +25,13 @@ li a:hover {
 }
 
 img {
-        padding: 10px 0;
-        float: right;
-        width: 100%;
+        padding: 1%;
+        max-width: 2550px;
+        width: 98%;
         height: auto;
-}
-
-.profile {
-        padding: 10px 0;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 .header {
